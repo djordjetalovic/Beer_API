@@ -9,3 +9,18 @@
 </table>
 
 
+
+
+## Site
+
+### Landing Page
+![Beer_Api](demo_img/index.png)
+
+### Search Page
+![Beer_Api](demo_img/search.png)
+
+### Beer page
+![Beer_Api](demo_img/beer.png)
+
+
+
