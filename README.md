@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+  A webapp that uses the Punk API to display various beer related data, in tabular fashion or individually, according to the requested parameters. The primary purpose of this webapp is to help beer enthusiasts discover new and exotic beer flavours. Users can browse through the vast catalogue of the Punk API, in tabular format, or go into more detail with the help of the search functionality.
 </td>
 </tr>
 </table>
