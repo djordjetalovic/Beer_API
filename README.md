@@ -1,4 +1,4 @@
-# ![Beer_Api](https://github.com/mikiperic/Beer_API/demo_img/index.PNG)
+# ![Beer_Api](demo_img/index.png)
 # Beer_API
 <table>
 <tr>
