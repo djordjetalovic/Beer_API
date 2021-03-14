@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Beer API</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header
+      class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-3 bg-body border-bottom shadow-sm"
+    >
+      <p class="h5 my-0 me-md-auto fw-normal logo"><a href="index.html">Beer API</a></p>
+      <nav class="my-2 my-md-0 me-md-3" id="siteNavbar"></nav>
+    </header>
+
+    <main class="container px-5">
+      <div
+        class="filter_table_div px-3 py-3 pt-md-4 pb-md-4 mx-auto text-center mb-2"
+      >
+        <h1 class="display-4">Beer API</h1>
+        <input
+          class="form-control search_table_input my-0 mx-auto py-1 mt-1"
+          type="text"
+          name="search"
+          value=""
+          placeholder="Search for a beer..."
+        />
+      </div>
+
+      <div class="mb-2 pb-3 text-center beer_table_div">
+        <table class="table table-hover beer_table">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Image</th>
+              <th scope="col">First brewed</th>
+              <th scope="col">ABV</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          <tfoot class="table-light">
+            <tr>
+              <td colspan="2">
+                <div class="dropdown_div">
+                  <span>Show:</span>
+                  <select class="form-select select_pages">
+                    <option value="5">5</option>
+                    <option selected value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                  </select>
+                </div>
+              </td>
+              <td colspan="3">
+                <div class="pagination_div">
+                  <ul class="pagination_ul"></ul>
+                </div>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="mb-2 pb-3 text-center small_beer_table_div">
+        <table class="table table-hover beer_table">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">Minimum ABV value</th>
+              <th scope="col">Maximum Ph value</th>
+              <th scope="col">Darkest beer hue (i.e. ebc)</th>
+              <th scope="col">Average fermentation temp. (in Celsius)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot class="table-light">
+            <tr>
+              <td colspan="5">
+                <div><br /></div>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+
+    <footer
+      class="footer d-flex flex-md-row align-items-center bg-body border-top shadow-sm justify-content-center"
+    >
+      <span class="text-muted footer_text">&#169; Beer API </span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/punk_api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

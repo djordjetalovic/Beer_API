@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Beer API - Single page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header
+      class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-3 bg-body border-bottom shadow-sm"
+    >
+      <p class="h5 my-0 me-md-auto fw-normal logo">
+        <a href="index.html">Beer API</a>
+      </p>
+      <nav class="my-2 my-md-0 me-md-3" id="siteNavbar"></nav>
+    </header>
+
+    <main class="container single_page_container">
+      <div class="beer_img_basic_data d-flex pt-5 pb-4">
+        <div class="beer_img_div">
+          <img
+            src="https://images.punkapi.com/v2/2.png"
+            class="d-inline-block beer_img"
+            alt="Beer image"
+          />
+        </div>
+        <div class="beer_basic_data">
+          <h1 class="display-4 beer_basic_data_title">
+            <span class="title_span">Buzz</span>
+          </h1>
+          <p class="fst-italic lead">A Real Bitter Experience</p>
+          <div class="beer_info_div pt-3 pb-1 my-3">
+            <h4 class="px-3">General information</h4>
+            <div class="beer_info px-4 py-2">
+              <p><span class="d-inline-block fw-bold">ABV:</span> &nbsp;3.2</p>
+              <p>
+                <span class="d-inline-block fw-bold">Attenuation level:</span>
+                &nbsp;3.2
+              </p>
+              <p><span class="d-inline-block fw-bold">EBC:</span> &nbsp;3.2</p>
+              <p><span class="d-inline-block fw-bold">IBU:</span> &nbsp;3.2</p>
+              <p><span class="d-inline-block fw-bold">Ph:</span> &nbsp;3.2</p>
+              <p>
+                <span class="d-inline-block fw-bold">Target og:</span> &nbsp;3.2
+              </p>
+              <p>
+                <span class="d-inline-block fw-bold">Target fg:</span> &nbsp;3.2
+              </p>
+              <p>
+                <span class="d-inline-block fw-bold">Volume:</span> &nbsp;3.2
+              </p>
+              <p>
+                <span class="d-inline-block fw-bold">Boil volume:</span>
+                &nbsp;3.2
+              </p>
+              <p><span class="d-inline-block fw-bold">SRM:</span> &nbsp;3.2</p>
+              <p>
+                <span class="d-inline-block fw-bold">First brewed:</span>
+                &nbsp;3.2
+              </p>
+              <p>
+                <span class="d-inline-block fw-bold">Contributed by:</span>
+                &nbsp;3.2
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="beer_description mx-auto d-flex my-4">
+         <div class="desc_heading">
+            <h4 class="">Description</h4>
+         </div>
+         <div class="desc_content">
+            <p>A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.</p>
+         </div>
+      </div>
+      <div class="beer_tips mx-auto d-flex my-4">
+         <div class="tips_heading">
+            <h4 class="">Brewers tips</h4>
+         </div>
+         <div class="tips_content">
+            <p>The earthy and floral aromas from the hops can be overpowering. Drop a little Cascade in at the end of the boil to lift the profile with a bit of citrus.</p>
+         </div>
+      </div>
+      <div class="best_pair mx-auto d-flex mt-4 mb-5">
+         <div class="pair_heading">
+            <h4 class="">Best paired with</h4>
+         </div>
+         <div class="pair_content">
+            <ul>
+               <li>Spicy chicken tikka masala</li>
+               <li>Grilled chicken quesadilla</li>
+               <li>Caramel toffee cake</li>
+            </ul>
+         </div>
+      </div>
+    </main>
+    <footer
+      class="footer d-flex flex-md-row align-items-center bg-body border-top shadow-sm justify-content-center"
+    >
+      <span class="text-muted footer_text">&#169; Beer API </span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/punk_api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/beer_app.js"></script>
+  </body>
+</html>
