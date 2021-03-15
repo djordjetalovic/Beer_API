@@ -20,6 +20,17 @@
 [Punk API V2](https://punkapi.com/documentation/v2) 
 
 
+## Installation
+If you wish to test the App, or fix a bug or enhance an existing module, follow these steps:
+
+- Fork / Clone the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
+
 ## Site
 
 ### Landing Page
@@ -32,16 +43,7 @@
 ![Beer_Api](demo_img/beer.png)
 
 
-## Installation
-If you wish to test the App, or fix a bug or enhance an existing module, follow these steps:
 
-- Fork / Clone the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
 
 
 
